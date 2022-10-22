@@ -1,0 +1,416 @@
+/* 
+  ##Device = Desktops,xxl  =============================
+
+*/
+
+@media (min-width: 1400px) {
+  /* CSS */
+}
+
+/* 
+      ##Device = Laptops, Desktops,xl ==============================
+      
+    */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* CSS */
+  /* banner section starts */
+  .banner-section {
+    padding: 0px 0 50px;
+  }
+  /* banner section ends */
+  /* service section starts */
+  .services-section {
+    padding: 10px 0 20px;
+  }
+  .services {
+    padding: 22px 18px;
+    margin: 15px;
+  }
+  .time ul li i {
+    padding-right: 7px;
+  }
+  .seats ul li i {
+    padding-right: 7px;
+  }
+  /* service section ends */
+
+}
+
+/* 
+      ##Device = lg =====================================
+      
+    */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS */
+  header {
+    padding: 1rem 0;
+  }
+  .logo {
+    padding: 1rem 0;
+}
+  /* banner section starts */
+  .banner-section {
+    min-height: 75vh;
+    padding: 30px 0;
+  }
+  .banner-text {
+    padding-right: 25px;
+  }
+  /* banner section ends */
+  /* feature section starts  */
+  .feature-items {
+    padding: 30px 0px 18px;
+    margin: 27px 10px;
+  }
+  /* features section ends */
+  /*  service section starts */
+  .services-section {
+    padding: 10px 0;
+  }
+  .services {
+    padding: 24px 16px;
+    margin: 20px 10px;
+  }
+  .time-table {
+    padding-top: 14px;
+  }
+  .time ul li i, .seats ul li i {
+    padding-right: 6px;
+  }
+  .time ul li span, .seats ul li span {
+    font-size: 14px;
+  }
+  /* service section ends */
+  /* testimonial section starts */
+  .testimonial-section {
+    padding: 50px 0;
+  }
+  .shadow{
+    padding: 45px 0;
+  }
+  .test-img {
+    width: 70%;
+  }
+  .heading {
+    padding-bottom: 12px;
+  }
+    /* testimonial section ends */
+    /* footer section starts */
+    footer {
+      padding: 55px 0;
+  }
+}
+
+/* 
+      ##Device = Tablets, md ======================================
+      
+    */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* css */
+  .logo {
+    width: 160px;
+  }
+  .menu ul li a {
+    padding: 0 2rem !important;
+    margin-bottom: 1.7rem;
+  }
+/* banner section starts  */
+.banner-section {
+  padding: 20px 0 50px;
+}
+.banner-wrap {
+  text-align: center;
+}
+.banner-text h1 {
+  font-size: 4.2rem;
+  padding: 12px 0;
+}
+.banner-text p {
+  font-size: 1.5rem;
+}
+.banner-btn {
+  margin-top: 20px;
+}
+.banner-image {
+  width: 52%;
+  margin: 0 auto 32px;
+}
+.banner-image img{
+  width: 100%;
+}
+/* banner section ends */
+/* service section starts */
+.services-section {
+  padding: 5px 0;
+}
+.heading {
+  padding-bottom: 10px;
+}
+.services {
+  padding: 24px 30px;
+  margin: 30px 45px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: space-between;
+}
+.service-image {
+  flex-basis: 40%;
+}
+.service-tab{
+  flex-basis: 60%;
+  padding-left: 20px;
+}
+.services h3{
+  padding-top: 0px;
+}
+.time-table{
+  padding-top: 12px;
+}
+/* service section ends */
+/* testimonial section starts */
+.testimonial-section {
+  padding: 45px 0;
+}
+.test-main-wrap {
+  padding: 10px 0;
+}
+.shadow{
+  padding: 40px 0;
+}
+.test-img{
+  width: 70%;
+}
+/* testimonial section ends */
+/* footer section starts  */
+footer {
+  padding: 60px 0;
+}
+.footer-para {
+  padding-bottom: 35px;
+}
+/* footer ends */
+}
+/* 
+    ##Device = Mobiles (Landscape),sm =====================================
+    
+  */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS */
+  .logo {
+    width: 160px;
+    padding: 1.2rem 0;
+  }
+  .menu ul li a {
+    padding: 0 2rem !important;
+    margin-bottom: 1.7rem;
+  }
+  /* banner section starts */
+  .banner-section {
+    padding: 10px 0 50px;
+  }
+  .banner-wrap {
+    text-align: center;
+}
+.banner-text {
+  padding-top: 25px;
+}
+  .banner-text h1 {
+    font-size: 3.2rem;
+    padding: 10px 0;
+    line-height: 24px;
+  }
+  .banner-text p {
+    line-height: 32px;
+  }
+  .banner-btn {
+    margin-top: 8px;
+  }
+  .banner-image {
+    width: 54%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  .banner-image img{
+    width: 100%;
+  }
+  /* banner section ends */
+  /* feature section starts  */
+  .features-section {
+    padding: 50px 0px 15px;
+  }
+  .feature-items {
+    padding: 50px 0px 31px;
+    margin: 26px 107px;
+  }   
+  /* features section ends */
+  /* service section starts */
+  .services-section {
+    padding: 30px 0;
+  }
+
+  .services {
+    padding: 19px 22px;
+    margin: 30px 10px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+}
+  .service-image {
+    flex-basis: 40%;
+  }
+  .service-tab{
+    flex-basis: 60%;
+    padding-left: 18px;
+  }
+  .services h3{
+    padding-top: 0px;
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .service-btn {
+    padding: 7px 20px;
+    margin: 0px 0;
+}
+  .time-table{
+    padding-top: 10px;
+  }
+  .time ul li i, .seats ul li i {
+    padding-right: 10px;
+}
+.time ul li span, .seats ul li span {
+  font-size: 14px;
+}
+  /* service section ends */
+/* testimonial section starts  */
+.testimonial-section {
+  padding: 10px 0 45px;
+}
+.test-main-wrap {
+
+}
+.shadow{
+  padding: 40px 0;
+}
+ .test-img{
+  width: 95%;
+ }
+ .heading {
+  font-size: 30px;
+ }
+/* testimonial section starts  */
+/* footer section starts */
+footer {
+  padding: 56px 0;
+}
+.footer-para p {
+  padding-bottom: 36px;
+}
+.copyright {
+  padding-top: 60px;
+}
+
+}
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait),esm,col ========================
+  */
+
+@media (max-width: 575.98px) {
+  /* CSS */
+  header {
+    padding: 0rem 2rem;
+  }
+  .logo {
+    width: 160px;
+    padding: 1rem 0;
+  }
+  .menu ul li a {
+    padding: 0 1.5rem !important;
+    margin-bottom: 1.2rem;
+  }
+  /* banner section starts */
+  .banner-section {
+    padding: 10px 0px 26px;
+  }
+  .banner-text {
+    padding: 0 10px;
+}
+  .banner-text h1 {
+    font-size: 3rem;
+    padding: 6px 0;
+    line-height: 36px;
+}
+  .banner-text p {
+    line-height: 28px;
+  }
+  .banner-btn {
+    margin-top: 8px;
+  }
+  .banner-image {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  /* banner section ends */
+/* feature section starts */
+.features-section {
+  padding: 30px 0px;
+}
+.feature-items {
+  margin: 20px 27px;
+}
+/* feature section ends */
+/* service section starts */
+.heading {
+  font-size: 28px;
+  line-height: 44px;
+  padding-bottom: 10px;
+}
+.services-section {
+  padding: 10px 0;
+}
+.services {
+  padding: 15px 15px 9px;
+  margin: 24px 8px;
+}
+.time ul li i, .seats ul li i {
+  padding-right: 5px;
+}
+.time ul li span, .seats ul li i {
+  font-size: 15px;
+}
+/* service section ends */
+/* testimonial section starts */
+.testimonial-section {
+  padding: 30px 0;
+}
+.shadow {
+  margin: 20px 0;
+  padding: 36px 0 25px;
+}
+.test-img {
+  width: 120px
+}
+.test-text{
+  padding: 0 15px;
+  text-align: center;
+}
+/* footer section starts */
+footer {
+  padding: 50px 0;
+}
+.footer-para {
+  padding-bottom: 22px;
+}
+.footer-items {
+  padding-bottom: 22px;
+}
+.copyright {
+  padding-top: 36px;
+}
+  
+}
